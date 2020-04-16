@@ -1,4 +1,14 @@
-if (window.location.protocol !== 'file:') {
+var enabledByDefault = true
+
+var allowedSites = [
+  // "example.com",
+]
+
+var blockedSites = [
+  // "example.com",
+]
+
+if (window.location.protocol !== 'file:' && ((enabledByDefault && !blockedSites.includes(window.location.hostname)) || allowedSites.includes(window.location.hostname))) {
   var style = document.createElement('style')
 
   style.textContent = `
