@@ -24,14 +24,16 @@ style.textContent = `
   }
   p, li, span, pre, code, blockquote, td, b, i, u {
     color: #ddd !important;
+    background: none !important;
   }
   a {
     color: #E87E65 !important;
     text-decoration: underline !important;
+    background: none !important;
   }
   
   iframe, img, video, canvas {
-  filter: brightness(0.5) contrast(1.5) !important;
+    filter: brightness(0.5) contrast(1.5) !important;
   }
   `
 
