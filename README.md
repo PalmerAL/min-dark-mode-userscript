@@ -1,5 +1,9 @@
 # min-dark-mode-userscript
-Adds a dark theme to any page in [Min](https://minbrowser.github.io/min).
+
+Add a dark theme to any page in [Min](https://minbrowser.github.io/min).
+
+The CSS overrides are just background and font colour tweaks for a bunch of elements + using `filter` to reduce image brightness and increase 
+contrast.
 
 To install: 
 
